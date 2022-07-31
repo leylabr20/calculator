@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <table>
+    
+        <tr>
+            
+            <td colspan="3"><input class='text' type='text' id="display" ></td>
+            <td><input class= "btn" type= "button" value= "c" onclick=" clearScreen()"></td>
+        </tr>
+        <tr>
+            <td><input class="button btn-number" type=button value="1" ></td>
+            <td><input class="button btn-number" type=button value="2" ></td>
+            <td><input class="button btn-number" type=button value="3" ></td>
+            <td><input class="button" type=button value="/" id="btn-div"></td>
+            <td> <input class="button" type="button" value="sin" id="btn-sin"></td>
+        </tr>
+         <tr>
+            <td><input class="button btn-number" type=button value="4" ></td>
+            <td><input class="button btn-number" type=button value="5" ></td>
+            <td><input class="button btn-number" type=button value="6" ></td>
+            <td><input class="button " type=button value="-" id="btn-minus"></td>
+            <td> <input class="button" type="button" value="cos" id="btn-cos"></td>
+        </tr>
+         <tr>
+            <td><input class="button btn-number" type=button value="7" ></td>
+            <td><input class="button btn-number" type=button value="8" ></td>
+            <td><input class="button btn-number" type=button value="9" ></td>
+            <td><input class="button" type=button value="+" id="btn-plus"></td>
+            <td><input class="button" type="button" value="tan" id="btn-tan"></td>
+          
+        </tr>
+         <tr>
+            <td><input class="button" type=button value="." id="btn-point"></td>
+            <td><input class="button btn-number" type=button value="0" ></td>
+            <td><input class="btn" type=button value="=" id="btn-equls" ></td>
+            <td><input class="button" type=button value="*" id="btn-mul"></td>
+          <td> <input  class="button"type="button" value="pow" id="btn-pow" ></td>
+           
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
